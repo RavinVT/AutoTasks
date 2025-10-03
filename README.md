@@ -21,9 +21,10 @@ https://www.virustotal.com/gui/file/be92865fcd6b896f7719e7258cc1f0249d6665656fa9
 
 ## How do I edit the source?
 1. You can download the project using git or download the source zip from github.
-2. Edit the app.py file in your editor of choice. ( The launch.py file is used for launching the program and can be modified )
-3. Please make sure that the .env file is the one that does not include your info if you plan on sharing it.
-4. After your changes have been made you can use compile.bat to compile the code into an EXE file.
+2. Install playwright browers using `playwright firefox chromium webkit` and copy their files into a local folder and call it `ms-playwright`
+3. Edit the app.py file in your editor of choice. ( The launch.py file is used for launching the program and can be modified )
+4. Please make sure that the .env file is the one that does not include your info if you plan on sharing it.
+5. After your changes have been made you can use compile.bat to compile the code into an EXE file.
 
 
 ## What imports do I need?
