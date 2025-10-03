@@ -1,0 +1,9 @@
+discord
+requests
+dotenv
+pyyaml
+feedparser
+selenium
+TikTokApi
+cython
+pyinstaller

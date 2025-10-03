@@ -1,0 +1,2 @@
+cythonize -i app.py
+pyinstaller --onefile --add-data ".env;." --add-data "ms-playwright;ms-playwright" --hidden-import=discord --hidden-import=requests --hidden-import=dotenv --hidden-import=pyyaml --hidden-import=feedparser --hidden-import=TikTokApi --hidden-import=selenium --hidden-import=requests_toolbelt --hidden-import=aiohttp --add-binary "app.cp313-win_amd64.pyd;." --icon=app.ico -n "AutoTasks" launch.py
